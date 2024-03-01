@@ -270,7 +270,7 @@
         </div>
         <h4>
           Lovnish was a real pleasure to work with and we look forward to
-          working with him again. He's definitely the kind designer you can
+          working with him again. He's definitely the kind developer you can
           trust with a project from start to finish
         </h4>
         <i class="fa-solid fa-quote-right"></i>
@@ -309,21 +309,21 @@
       </div>
       <div class="client-profile-card">
         <div class="single-profile-card profile-card-active">
-          <img src="assets/client-profile.png" alt="" />
+          <img src="https://cdn.glitch.global/12392ae7-4a85-40e3-8823-99588eabfbd2/fotor-20240301163756.png?v=1709291770877" alt="" />
           <div>
             <h4>Dr. Sarwan Singh</h4>
-            <p>Joint Director., <a href="https://www.nielit.gov.in/chandigarh/index.php">NIELIT Chandigarh</a></p>
+            <p>Joint Director, <a href="https://www.nielit.gov.in/chandigarh/index.php">NIELIT Chandigarh</a></p>
           </div>
         </div>
         <div class="single-profile-card">
-          <img src="assets/client-profile.png" alt="" />
+          <img src="https://cdn.glitch.global/12392ae7-4a85-40e3-8823-99588eabfbd2/fotor-20240301164456.png?v=1709291761761" alt="" />
           <div>
             <h4>Anita Budhiraja</h4>
-            <p>Joint Director., <a href="https://www.nielit.gov.in/chandigarh/index.php">NIELIT Chandigarh</a></p>
+            <p>Joint Director, <a href="https://www.nielit.gov.in/chandigarh/index.php">NIELIT Chandigarh</a></p>
           </div>
         </div>
         <div class="single-profile-card">
-          <img src="assets/client-profile.png" alt="" />
+          <img src="https://cdn.glitch.global/12392ae7-4a85-40e3-8823-99588eabfbd2/fotor-20240301163910.png?v=1709291864970" alt="" />
           <div>
             <h4>Arti Mehta</h4>
             <p>Founder, <a href="https://smilingwalls.in/">Smiling Walls</a></p>
@@ -337,17 +337,14 @@
 
         <div class="email-form">
           <h2>Start by <span>saying hi</span></h2>
-          <input type="text" name="name" id="" placeholder="Your name" />
-          <input type="email" name="email" id="" placeholder="Email Address" />
-          <div>
-            <input
-              type="number"
-              name="phone-number"
-              id=""
-              placeholder="Phone number"
-            />
-            <button type="submit">Send</button>
-          </div>
+          <form id="contactForm">
+            <input type="text" name="name" id="name" placeholder="Your name" required />
+            <input type="email" name="email" id="email" placeholder="Email Address" required />
+            <div>
+                <input type="number" name="phone-number" id="phone" placeholder="Phone number" required />
+                <button type="submit">Send</button>
+            </div>
+        </form>
         </div>
 
         <div class="footer-title">
@@ -406,6 +403,25 @@
             // Redirect the user to the WhatsApp chat
             window.location.href = url;
         }
+    </script>
+     <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+
+            // Construct the WhatsApp message
+            var message = "Name: " + name + ", Email: " + email + ", Phone: " + phone;
+
+            // Construct the WhatsApp URL
+            var phoneNumber = "918894869371"; // Replace with your desired phone number
+            var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+
+            // Redirect the user to the WhatsApp chat
+            window.location.href = url;
+        });
     </script>
   </body>
 </html>
