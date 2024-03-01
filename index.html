@@ -25,7 +25,6 @@
       </div>
       <div>
         <ul class="navbar-menu">
-          <li><a class="active" href="#">&lt; Service &gt;</a></li>
          <li><a class="" onclick="redirectToWhatsApp()">Whatsapp</a></li>
           <li><a class="" href="mailto:princelv84@gmail.com">Mail</a></li>
           <li><a class="" href="tel:8894869371">Call</a></li>
@@ -341,7 +340,7 @@
             <input type="text" name="name" id="name" placeholder="Your name" required />
             <input type="email" name="email" id="email" placeholder="Email Address" required />
             <div>
-                <input type="number" name="phone-number" id="phone" placeholder="Phone number" required />
+                <input type="text" name="phone-number" id="phone" placeholder="type your message" required />
                 <button type="submit">Send</button>
             </div>
         </form>
@@ -356,14 +355,13 @@
         <div class="footer-email-intro">
           <p>Information</p>
           <h6>Himachal Pradesh, Mandi, Karsog, India, Pin-175011</h6>
-          <h3>technicalboyprince@gmail.com</h3>
+          <h3>princelv84@gmail.com</h3>
         </div>
         <div class="footer-nav-menu">
           <ul class="footer-menu">
-            <li><a class="active" href="#">&lt; Service &gt;</a></li>
-            <li><a class="" href="#">Works</a></li>
-            <li><a class="" href="#">Notes</a></li>
-            <li><a class="" href="#">Contacts</a></li>
+            <li><a class="" onclick="redirectToWhatsApp()">Whatsapp</a></li>
+          <li><a class="" href="mailto:princelv84@gmail.com">Mail</a></li>
+          <li><a class="" href="tel:8894869371">Call</a></li>
           </ul>
         </div>
         <div class="social-icons">
@@ -373,7 +371,7 @@
           <a href="https://github.com/LovnishVerma" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
-          <a href="mailto:technicalboyprince@gmail.com" target="_blank">
+          <a href="mailto:princelv84@gmail.com" target="_blank">
             <i class="fa-regular fa-envelope"></i>
           </a>
           <a href="https://www.twitter.com/princelv84/" target="_blank">
@@ -413,7 +411,7 @@
             var phone = document.getElementById("phone").value;
 
             // Construct the WhatsApp message
-            var message = "Name: " + name + ", Email: " + email + ", Phone: " + phone;
+            var message = "Name: " + name + ", Email: " + email + ", Message: " + phone;
 
             // Construct the WhatsApp URL
             var phoneNumber = "918894869371"; // Replace with your desired phone number
