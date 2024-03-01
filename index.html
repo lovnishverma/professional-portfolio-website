@@ -26,7 +26,7 @@
       <div>
         <ul class="navbar-menu">
           <li><a class="active" href="#">&lt; Service &gt;</a></li>
-         <li><a class="" href="https://web.whatsapp.com/send?text=&phone=918894869371">Whatsapp</a></li>
+         <li><a class="" onclick="redirectToWhatsApp()">Whatsapp</a></li>
           <li><a class="" href="mailto:princelv84@gmail.com">Mail</a></li>
           <li><a class="" href="tel:8894869371">Call</a></li>
         </ul>
@@ -63,12 +63,12 @@
             I design and code beautifully simple things,<br />and I love what I
             do.
           </p>
-          <a href="https://wa.me/send?text=&phone=8894869371">LET'S CHAT!</a>
+            <a onclick="redirectToWhatsApp()">LET'S CHAT!</a>
         </div>
         <div class="body-tail">
           <h1>2</h1>
           <p>YEARS<br />EXPERIENCE</p>
-          <h1>20</h1>
+          <h1>25+</h1>
           <p>PROJECTS<br />COMPLETED</p>
         </div>
       </div>
@@ -219,7 +219,7 @@
           </a>
           <p>
             * Some projects are not allowed to publish by NDA<br />if you want
-            to see more. <a href="">CONTACT</a>
+            to see more. <a href="https://glitch.com/@lovnishverma">See on Glitch</a>
           </p>
         </div>
       </div>
@@ -311,22 +311,22 @@
         <div class="single-profile-card profile-card-active">
           <img src="assets/client-profile.png" alt="" />
           <div>
-            <h4>Lovnish Verma</h4>
-            <p>VP & Co-Founder, <a href="">Wiser</a></p>
+            <h4>Dr. Sarwan Singh</h4>
+            <p>Joint Director., <a href="https://www.nielit.gov.in/chandigarh/index.php">NIELIT Chandigarh</a></p>
           </div>
         </div>
         <div class="single-profile-card">
           <img src="assets/client-profile.png" alt="" />
           <div>
-            <h4>Lovnish Verma</h4>
-            <p>VP & Co-Founder, <a href="">Wiser</a></p>
+            <h4>Anita Budhiraja</h4>
+            <p>Joint Director., <a href="https://www.nielit.gov.in/chandigarh/index.php">NIELIT Chandigarh</a></p>
           </div>
         </div>
         <div class="single-profile-card">
           <img src="assets/client-profile.png" alt="" />
           <div>
-            <h4>Lovnish Verma</h4>
-            <p>VP & Co-Founder, <a href="">Wiser</a></p>
+            <h4>Arti Mehta</h4>
+            <p>Founder, <a href="https://smilingwalls.in/">Smiling Walls</a></p>
           </div>
         </div>
       </div>
@@ -392,5 +392,20 @@
       </div>
     </section>
     <script src="script.js"></script>
+    <script>
+        function redirectToWhatsApp() {
+            // Phone number including country code
+            var phoneNumber = "918894869371";
+
+            // Optional message
+            var message = "";
+
+            // Construct the WhatsApp URL
+            var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+
+            // Redirect the user to the WhatsApp chat
+            window.location.href = url;
+        }
+    </script>
   </body>
 </html>
