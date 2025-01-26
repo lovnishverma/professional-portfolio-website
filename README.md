@@ -99,7 +99,7 @@ Feel free to reach out for collaboration or inquiries!
 
 - **Name:** [Lovnish Verma]
 - **Email:** [princelv84@gmail.com]
-- **Portfolio Link:** [lovnish.glitch.me]
+- **Portfolio Link:** [https://lovnish.glitch.me/]
 - **LinkedIn:** [https://www.linkedin.com/in/lovnishverma/]
 - **GitHub:** [https://github.com/Lovnishverma]
 
