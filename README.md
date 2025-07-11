@@ -2,7 +2,7 @@
 
 A modern, responsive, and interactive portfolio website to showcase your professional skills, projects, and experiences. Designed with simplicity and elegance to create a lasting impression on potential employers or clients.
 
-LIVE DEMO: https://lovnish.glitch.me/lovnishwebresume.html
+LIVE DEMO: https://lovnishverma.github.io/professional-portfolio-website/
 
 ## Table of Contents
 
@@ -101,7 +101,7 @@ Feel free to reach out for collaboration or inquiries!
 
 - **Name:** [Lovnish Verma]
 - **Email:** [princelv84@gmail.com]
-- **Portfolio Link:** [https://lovnish.glitch.me/]
+- **Portfolio Link:** [https://lovnishverma.github.io/professional-portfolio-website/]
 - **LinkedIn:** [https://www.linkedin.com/in/lovnishverma/]
 - **GitHub:** [https://github.com/Lovnishverma]
 
