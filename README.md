@@ -62,15 +62,15 @@ LIVE DEMO: https://lovnishverma.github.io/professional-portfolio-website/
 
 ### Home Page
 
-![Home Page](link-to-screenshot-homepage)
+![Home Page](https://github.com/user-attachments/assets/35e68bff-bdb1-4b14-8b47-c6433a7d691d)
 
 ### Projects Section
 
-![Projects Section](link-to-screenshot-projects)
+![Projects Section](https://github.com/user-attachments/assets/9f95f6ae-7a0d-4d7b-aba5-d3a6d978e72b)
 
 ### Contact Section
 
-![Contact Section](link-to-screenshot-contact)
+![Contact Section](https://github.com/user-attachments/assets/5ac766f8-f26d-4ba4-b13e-97483f8964aa)
 
 ---
 
